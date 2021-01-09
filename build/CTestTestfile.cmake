@@ -5,5 +5,8 @@
 # This file includes the relevant testing commands required for 
 # testing this directory and lists subdirectories to be tested as well.
 subdirs("gtest")
-subdirs("ros_essentials_cpp")
+subdirs("turtlebot3_simulations/turtlebot3_simulations")
+subdirs("tb3_vision")
+subdirs("turtlebot3_simulations/turtlebot3_fake")
+subdirs("turtlebot3_simulations/turtlebot3_gazebo")
 subdirs("usbcam")
