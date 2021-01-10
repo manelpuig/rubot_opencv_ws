@@ -132,10 +132,9 @@ if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for each subdirectory.
   include("/home/mpuig/rubot_opencv_ws/build/gtest/cmake_install.cmake")
   include("/home/mpuig/rubot_opencv_ws/build/turtlebot3_simulations/turtlebot3_simulations/cmake_install.cmake")
-  include("/home/mpuig/rubot_opencv_ws/build/tb3_vision/cmake_install.cmake")
   include("/home/mpuig/rubot_opencv_ws/build/turtlebot3_simulations/turtlebot3_fake/cmake_install.cmake")
   include("/home/mpuig/rubot_opencv_ws/build/turtlebot3_simulations/turtlebot3_gazebo/cmake_install.cmake")
-  include("/home/mpuig/rubot_opencv_ws/build/usbcam/cmake_install.cmake")
+  include("/home/mpuig/rubot_opencv_ws/build/vision/cmake_install.cmake")
 
 endif()
 
