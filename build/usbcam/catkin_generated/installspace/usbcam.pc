@@ -1,8 +1,0 @@
-prefix=/home/mpuig/rubot_opencv_ws/install
-
-Name: usbcam
-Description: Description of usbcam
-Version: 0.0.0
-Cflags: 
-Libs: -L${prefix}/lib 
-Requires: 
